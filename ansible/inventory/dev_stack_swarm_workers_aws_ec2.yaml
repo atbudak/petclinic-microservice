@@ -2,7 +2,7 @@ plugin: aws_ec2
 regions:
   - "us-east-1"
 filters:
-  tag:app-stack-name: Call-Ahmet-Petclinic-App-2
+  tag:app-stack-name: APP_STACK_NAME
   tag:environment: dev
   tag:swarm-role: worker
 hostnames:
